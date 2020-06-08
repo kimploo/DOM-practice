@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="practiceFormEvent.css" />
+  <title>Document</title>
+</head>
+<body>
+  <div id="submitForm">
+    <form method="post" id="formAction">
+      Form Tag Submit Form
+      <ul>
+       <li>
+         <label for="name">Name:</label>
+         <input type="text" id="name" name="user_name">
+       </li>
+       <li>
+         <label for="mail">E-mail:</label>
+         <input type="email" id="mail" name="user_email">
+       </li>
+       <li>
+         <label for="msg">Message:</label>
+         <textarea id="msg" name="user_message"></textarea>
+       </li>
+       <li class="button">
+        <button type="submit">Send your message</button>
+      </li>
+      </ul>
+    </form>
+  </div>
+  <div id="submitDiv">
+    <ul>
+      <li>
+        <span>
+        Div Tag Submit Form
+        </span>
+      </li>
+      <li>
+        <span class="divLabel" >
+        Name :
+        </span>
+        <input type="text" id="divName"/>
+      </li>
+      <li>
+        <span class="divLabel" >
+        e-mail:
+        </span>
+        <input type="mail" id="divEmail"/>
+      </li>
+      <li>
+        <span class="divLabel" >
+        Message :
+        </span>
+        <textarea name="div_user_message" id="divMessage" ></textarea>
+      </li>
+      <li class="button">
+        <button id="divSubmitButton">Send your message</button>
+      </li>
+    </ul>
+   </div>
+  <script src="formEventHandler.js"></script>
+</body>
+</html>
